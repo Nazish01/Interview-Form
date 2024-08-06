@@ -1,0 +1,148 @@
+h1{
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+input, select, button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #9dc540;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9dc540;
+  color: #ccc;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+thead th {
+  font-weight: bold;
+}
+
+
+div {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #f4f4f4;
+}
+
+button.active {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.tabs {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #f4f4f4;
+}
+
+button.active {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #f4f4f4;
+}
+
+button.active {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
